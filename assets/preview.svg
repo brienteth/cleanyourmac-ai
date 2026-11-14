@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="920" height="380">
+  <defs><style>
+    .bg{fill:#0B0C10}.card{fill:#13161E;stroke:#232734;stroke-width:1.5}
+    .bad{fill:#1B1316;stroke:#5E2A33;stroke-width:1.5}.good{fill:#111916;stroke:#2E6F52;stroke-width:1.5}
+    .h{fill:#EAE6DF;font-family:system-ui,-apple-system,sans-serif;font-size:18px;font-weight:700}
+    .m{fill:#8A92A6;font-family:system-ui,-apple-system,sans-serif;font-size:13px}
+    .red{fill:#FF6B7A;font-family:ui-monospace,monospace;font-size:14px;font-weight:700}
+    .grn{fill:#5AE39B;font-family:ui-monospace,monospace;font-size:14px;font-weight:700}
+    .gld{fill:#C8A86B;font-family:ui-monospace,monospace;font-size:13px;font-weight:700}
+  </style></defs>
+  <rect width="920" height="380" rx="16" class="bg"/>
+  <rect x="24" y="24" width="420" height="332" rx="14" class="bad"/>
+  <text x="48" y="60" class="h">Before: Bloated &amp; Cloud-Locked</text>
+  <text x="48" y="84" class="m">8 GB Laptop choking on caches &amp; background hogs</text>
+  <rect x="48" y="108" width="372" height="54" rx="10" fill="#120E10" stroke="#3D2026"/>
+  <text x="64" y="132" class="red">Free RAM: 1,187 MB / 8,192 MB</text>
+  <text x="64" y="150" class="m">5.4 GB trapped in hidden Library/npm/pip caches</text>
+  <rect x="48" y="176" width="372" height="54" rx="10" fill="#120E10" stroke="#3D2026"/>
+  <text x="64" y="200" class="red">AI Status: $20/mo Cloud Only</text>
+  <text x="64" y="218" class="m">Browser tabs + Electron apps eating swap</text>
+  <rect x="48" y="244" width="372" height="86" rx="10" fill="#120E10" stroke="#3D2026"/>
+  <text x="64" y="272" class="m">Fans spinning at 100% · Zero offline intelligence</text>
+  <text x="64" y="298" class="red">Telemetry &amp; background updaters always on</text>
+
+  <rect x="476" y="24" width="420" height="332" rx="14" class="good"/>
+  <text x="500" y="60" class="h">After: CleanYourMac-AI</text>
+  <text x="500" y="84" class="m">1-command audit + 0-GPU offline AI in freed RAM</text>
+  <rect x="500" y="108" width="372" height="54" rx="10" fill="#0E1412" stroke="#25543E"/>
+  <text x="516" y="132" class="grn">5.4 GB Reclaimable Caches Mapped</text>
+  <text x="516" y="150" class="m">Live process hog radar (safe, zero surprises)</text>
+  <rect x="500" y="176" width="372" height="54" rx="10" fill="#0E1412" stroke="#25543E"/>
+  <text x="516" y="200" class="grn">Offline AI: 77+ tok/s on CPU (0 GPU)</text>
+  <text x="516" y="218" class="m">Powered by MYCA-Modchip (69 MB footprint)</text>
+  <rect x="500" y="244" width="372" height="86" rx="10" fill="#0E1412" stroke="#25543E"/>
+  <text x="516" y="272" class="gld">http://127.0.0.1:8787/</text>
+  <text x="516" y="298" class="grn">Zero pip deps · Zero telemetry · MIT Open Source</text>
+</svg>
